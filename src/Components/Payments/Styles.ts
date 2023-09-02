@@ -1,0 +1,232 @@
+import { makeStyles } from "@mui/styles";
+
+export const useStyles = makeStyles(() => ({
+  paymentBackground: {
+    backgroundColor: "white",
+  },
+
+  payment: {
+    color: " #00D54B",
+    fontFamily: " Agrandir",
+    fontSize: "40px",
+    fontStyle: "normal",
+    fontWeight: "800",
+    lineHeight: "40px",
+    margin: "auto",
+    paddingLeft: "10px",
+  },
+  para: {
+    color: "#000",
+    fontFamily: " Mulish",
+    fontSize: "16px",
+    fontStyle: "normal",
+    fontWeight: "400",
+    lineHeight: "22px",
+    letterSpacing: " 0.3px",
+    width: "352px",
+    "@media (max-width:768px)": {
+      width: "auto",
+    },
+  },
+  paymentDiv: {
+    width: "350px",
+    paddingLeft: "250px",
+    marginTop: "100px",
+    "@media (max-width:768px)": {
+      width: "300px",
+      marginTop: "10px",
+      paddingLeft: "10px",
+    },
+  },
+  phone: {
+    width: "450px",
+    height: "431px",
+    flexShrink: "0",
+    "@media (max-width:768px)": {
+      width: "300px !important",
+      height: "200px",
+    },
+  },
+  phoneContent: {
+    maxwidth: "850px",
+    display: "flex",
+    justifyContent: "center",
+    flexDirection: "row",
+    marginTop: "100px",
+    position: "absolute",
+    "@media (max-width:768px)": {
+      display: "flex",
+      justifyContent: "space-between",
+      flexDirection: "column",
+      width: "100%",
+      maxWidth: "100%",
+      // marginTop: "-130px",
+      marginTop: "0px",
+      position: "unset",
+    },
+  },
+  phone1stPillar: {
+    width: "100px",
+    height: "250px",
+    marginTop: "250px",
+    marginLeft: "-45px",
+    "@media (max-width:768px)": {
+      width: "100px",
+      height: "150px",
+      marginTop: "10px",
+      marginLeft: "5px",
+    },
+  },
+  phone2ndPillar: {
+    width: "100px",
+    height: "170px",
+    marginTop: "265px",
+    marginLeft: "145px",
+    "@media (max-width:768px)": {
+      width: "100px",
+      height: "150px",
+      marginTop: "10px",
+      marginLeft: "5px",
+    },
+  },
+
+  pillarDiv: {
+    display: "flex",
+    justifyContent: "center",
+    flexDirection: "row",
+    maxWidth: "100%",
+    position: "relative",
+    paddingTop: "30%",
+    "@media (max-width:768px)": {
+      display: "flex",
+      justifyContent: "space-between",
+      flexDirection: "column",
+      position: "unset",
+      paddingTop: "0",
+      marginTop: "10px",
+    },
+  },
+  pillarDivBig: {
+    display: "flex",
+    justifyContent: "center",
+    flexDirection: "row",
+    maxWidth: "100%",
+    "@media (max-width:768px)": {
+      width: "auto",
+      display: "flex",
+      justifyContent: "space-between",
+      flexDirection: "row",
+      marginTop: "20px",
+      marginBottom: "10px",
+    },
+  },
+  FirstDiv: {
+    display: "flex",
+    justifyContent: "center",
+    flexDirection: "row",
+    "@media (max-width:768px)": {
+      display: "flex",
+      justifyContent: "space-between",
+      flexDirection: "row",
+      margin: "auto",
+    },
+  },
+  FirstSection: {
+    display: "flex",
+    justifyContent: "center",
+    flexDirection: "row",
+    width: "400px",
+    "@media (max-width:768px)": {
+      width: "300px",
+      display: "flex",
+      justifyContent: "center",
+      flexDirection: "column",
+    },
+  },
+  pillarFirstDiv: {
+    display: "flex",
+    justifyContent: "center",
+    flexDirection: "row",
+    position: "absolute",
+    "@media (max-width:768px)": {
+      display: "flex",
+      justifyContent: "center",
+      flexDirection: "row",
+      marginTop: "140px",
+    },
+  },
+  firstLargePillar: {
+    width: "150px",
+    height: "300px",
+    // marginLeft: "244px",
+    "@media (max-width:768px)": {
+      width: "130px",
+      height: "130px",
+      margin: "auto",
+    },
+  },
+  secLargePillar: {
+    width: "100px",
+    height: "200px",
+    marginTop: "100px",
+    // position: "absolute",
+    "@media (max-width:768px)": {
+      width: "100px",
+      height: "200px",
+      marginTop: "150px",
+      marginLeft: "50px",
+    },
+  },
+  thirdSmallPillar: {
+    width: "100px",
+    height: "100px",
+    marginTop: "160px",
+    // position: "relative",
+    "@media (max-width:768px)": {
+      marginTop: "10px",
+    },
+  },
+  mediumPillar: {
+    width: "100px",
+    height: "200px",
+    marginTop: "100px",
+    "@media (max-width:768px)": {
+      width: "60px",
+      height: "80px",
+      marginTop: "10px",
+    },
+  },
+  midSmallPillar: {
+    width: "100px",
+    height: "100px",
+    marginTop: "200px",
+    "@media (max-width:768px)": {
+      width: "80px",
+      height: "140px",
+      marginTop: "0px",
+    },
+  },
+  squarePillar: {
+    width: "200px",
+  },
+  bigColumn: {
+    width: "400px",
+    position: "relative",
+    "@media (max-width:768px)": {
+      width: "150px",
+      position: "unset",
+      marginLeft: "10px",
+      marginRight: "10px",
+    },
+  },
+  bigFirstColumn: {
+    width: "400px",
+    position: "relative",
+    left: "20%",
+    "@media (max-width:768px)": {
+      width: "150px",
+      left: "0%",
+      position: "unset",
+    },
+  },
+}));
