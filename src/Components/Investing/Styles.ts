@@ -150,11 +150,12 @@ export const useStyles = makeStyles(() => ({
     fontSize: "10px",
     marginLeft: "150px",
     "@media (max-width:768px)": {
-      width: "300px",
+      width: "250px",
       fontSize: "10px",
-      marginLeft: "10px",
+      marginLeft: "0px",
       marginTop: "30px",
       marginBottom: "30px",
+      textAlign: "center",
     },
   },
 }));
